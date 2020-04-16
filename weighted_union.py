@@ -2,6 +2,7 @@ def root(a,i):
 	while(a[i]!=i):
 		i=a[i]
 	return i
+	
 def weighted_union(a,size,u,v):
 	rootu=root(a,u)
 	rootv=root(a,v)

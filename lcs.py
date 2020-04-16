@@ -11,11 +11,11 @@ def lcs(str1 , str2):
         for j in range(n+1): 
             if i == 0 or j == 0 : 
                 L[i][j] = 0
-            elif str1[i-1] ==s tr2[j-1]: 
+            elif str1[i-1] ==str2[j-1]: 
                 L[i][j] = L[i-1][j-1]+1
             else: 
                 L[i][j] = max(L[i-1][j] , L[i][j-1]) 
   
     return L[m][n] 
 			
-print(lcs("axgxagxg","atatatxgax"))
+# print(lcs("axgxagxg","atatatxgax"))
