@@ -1,3 +1,5 @@
+# Josepheus Problem iterative given n,k
+
 def josepheus(n,k):
 	res=0
 	for i in range(1,n+1):
@@ -5,4 +7,4 @@ def josepheus(n,k):
 	return res+1
 
 
-print(josepheus(14,2))
+print(josepheus(14,1))

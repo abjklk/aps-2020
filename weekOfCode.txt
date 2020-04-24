@@ -1,0 +1,33 @@
+=============================
+-> Kadane's Algorithm
+Used to perform *subarray* operations using sliding window protocol.
+Eg. Maximum Subarray Sum, Minimum Subarray Sum.
+Efficiency : O(n)
+=============================
+-> Segment Tree
+Tree will have 2n-1 nodes
+Height of tree : log(n) 
+***Creation : O(n) / O(n logn)
+Query / Update Tree : 2logn
+=============================
+-> Lookup Table
+Size depends on nature of problem.
+But the query time is always O(1)
+=============================
+-> Sparse Table
+Space : O(n*logn)
+Query Time : O(1)
+Build Time : O(n*logn)
+=============================
+-> Mo's Algorithm Sqrt Decompistion
+Space : O(sqrt(n))
+Query Time : O(sqrt(n))
+Doesnt work for dynamic queries
+works well if queries are known beforehand.
+=============================
+-> Fenwick Tree
+Space : O(n)
+Query : O(logn)
+=============================
+
+NOTE : Merge Sort Tree, Persistent Segment Tree, 2D Fenwick Tree

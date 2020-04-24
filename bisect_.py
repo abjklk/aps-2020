@@ -1,4 +1,4 @@
-# To get index of an element which is to be inserted in asorted array
+# To get index of an element which is to be inserted in a sorted array
 import bisect
 
 a = [1,2,4,7,9]

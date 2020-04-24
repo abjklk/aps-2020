@@ -1,21 +1,35 @@
-from collections import defaultdict
+# Depth First Traversal of Graph (Recursive)
 
-n=4
-vertex=list(range(n))
-edges=[(0,1),(0,2),(1,2),(2,0),(2,3),(3,3)]
+from collections import defaultdict 
 
-adjacencyList=defaultdict(list)
-for edge in edges:
-	adjacencyList[edge[0]].append(edge[1])
+class Graph: 
 
-def dfs(edges, n, src):
-	visited.append(src)
-	for i in range(n):
-		if(vertex[i] in adjacencyList[src] and vertex[i] not in visited):
-			print(i,end=" ")
-			dfs(edges, n, i)
+	# Constructor 
+	def __init__(self): 
 
-src=vertex[2]
-visited=[]
-print(src,end=' ')
-dfs(adjacencyList,n,src)      
+		self.graph = defaultdict(list) 
+
+	def addEdge(self, u, v): 
+		self.graph[u].append(v) 
+ 
+
+	def DFS(self, v):
+		visited[v] = True
+		print(v, end = ' ') 
+
+		for i in self.graph[v]: 
+			if visited[i] == False: 
+				self.DFS(i) 
+ 
+g = Graph() 
+g.addEdge(0, 1) 
+g.addEdge(0, 2) 
+g.addEdge(1, 2) 
+g.addEdge(2, 0) 
+g.addEdge(2, 3) 
+g.addEdge(3, 3) 
+root = 2
+print("DFS from root") 
+visited = [False] * len(g.graph)
+visited[root] = True
+g.DFS(root) 
