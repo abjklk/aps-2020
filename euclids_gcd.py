@@ -1,5 +1,6 @@
-# Euclid's GCD algorithm to find LCM of 2 no.s a & b
+# Euclid's GCD algorithm to find HCF of 2 no.s a & b
 # Time Complexity O(logn) n is min(a,b)
+
 a = 84
 b = 72
 
