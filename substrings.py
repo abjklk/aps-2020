@@ -1,3 +1,4 @@
+# Handout 2
 # Prints all substrings of a string
 # Note: Substrings are contiguous
 

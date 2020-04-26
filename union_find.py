@@ -1,3 +1,5 @@
+# Program implementing Union Find (disjoint sets)
+
 def union(arr,a,b):
 	a1=arr[a]
 	b1=arr[b]
