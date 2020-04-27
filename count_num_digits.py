@@ -1,4 +1,4 @@
-# Program to dtermine the number of digits in a number in logn time
+# Program to determine the number of digits in a number in logn time
 
 import math
 

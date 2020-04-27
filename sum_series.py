@@ -1,3 +1,4 @@
+# Formulae to find sum of AP,GP
 n = 10
 a = 3
 b = 30

@@ -1,12 +1,13 @@
-# todo
+# Union Find root method
 def root(a,i):
 	while(a[i]!=i):
 		i=a[i]
 	return i
+
 def find(a,u,v):
 	if root(a,u) == root(a,v):
-		return 1
-	return 0
+		return True
+	return False
 
 def union(a,u,v):
 	rootu = root(a,u)

@@ -8,7 +8,7 @@ def pangram(s):
         return "Pangram"
     return "Not Pangram"
 
-a = "We promptly judged antique ivory buckles for the prize"
+a = "Hello World"
 print(pangram(a))
 b = "The quick brown fox jumps over the lazy dog"
 print(pangram(b))

@@ -20,10 +20,10 @@ class Graph:
 
 		for _ in range(self.V - 1): 
 			for u, v, w in self.graph: 
-				if dist[u] != float("Inf") and dist[u] + w < dist[v]: 
+				if dist[u] != float("inf") and dist[u] + w < dist[v]: 
 						dist[v] = dist[u] + w 
 		for u, v, w in self.graph: 
-				if dist[u] != float("Inf") and dist[u] + w < dist[v]: 
+				if dist[u] != float("inf") and dist[u] + w < dist[v]: 
 						print("Graph contains negative weight cycle") 
 						return
 		self.printArr(dist) 

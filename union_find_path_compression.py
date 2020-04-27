@@ -1,4 +1,5 @@
-# TODO
+# Union Find Path Compression
+# Union Time Complexity : O(logN)
 def initialize(n): 
     global Arr, size 
     for i in range(n + 1): 
@@ -16,9 +17,6 @@ def _union(xr, yr):
 
 def find(i): 
     global Arr, size 
-      
-    # while we reach a node whose  
-    # parent is equal to itself  
     while (Arr[i] != i): 
         Arr[i] = Arr[Arr[i]] # Skip one level  
         i = Arr[i] # Move to the new level 

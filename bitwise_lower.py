@@ -1,3 +1,4 @@
+# Program to perform string.lower() using bitwise ops
 a = "HELLO EVERYONE"
 x = ""
 

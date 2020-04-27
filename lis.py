@@ -1,5 +1,5 @@
-# Longest Increasing Subsequence
-
+# Longest Increasing Subsequence (DP)
+# Time Complexity : O(n^2)
 a = [5,11,3,15,30,25]
 lis = [1]*len(a)
 

@@ -1,4 +1,5 @@
-#josephus problem given n
+# josephus problem given n
+
 def josephus(n):
     res=0
     for i in range(n,0,-1):

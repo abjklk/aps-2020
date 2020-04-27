@@ -9,7 +9,7 @@ for edge in edges:
 	adjacencyList[edge[0]].append(edge[1])
 # print(adjacencyList)
 
-queue=[vertex[0]] #or start with root
+queue=[vertex[0]] #start with root
 visited=[]
 
 while queue:

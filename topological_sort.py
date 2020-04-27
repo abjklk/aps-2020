@@ -1,4 +1,4 @@
-#Prints the topological sort of the given graph
+# Prints the topological sort of the given graph
 
 from collections import defaultdict
 

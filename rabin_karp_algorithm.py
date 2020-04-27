@@ -1,3 +1,5 @@
+# Rabin Karp Algorithm for Pattern Searching
+# Time Complexity : O(mn)
 d = 256
 
 def search(pat, txt, q): 

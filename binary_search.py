@@ -1,4 +1,4 @@
-#Given a sorted array and an element returns the index of the element if present else returns -1
+# Given a sorted array and an element, returns the index of the element if present else returns -1
 
 def binary_search(a,l,r,x):
 	if l<=r:

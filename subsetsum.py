@@ -1,6 +1,6 @@
 # Subset Sum using DP
 # Given array, is it possible to get a subset sum equal to query?
-#TODO
+
 ss=[1,2,3,5,7]
 sum = 9
 items=len(ss)

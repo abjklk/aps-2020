@@ -1,4 +1,4 @@
-# Program to print whether a pair of words are anagrams or not using Counter
+# Program to determine whether a pair of words are anagrams or not using Counter
 
 from collections import Counter
 x = "abcd"

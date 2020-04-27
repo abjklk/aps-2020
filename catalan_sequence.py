@@ -1,5 +1,5 @@
 # Dyck Path
-# Dyck Sequences follow Catalan numbers.==> 1,1,2,5,42...
+# Dyck Sequences follow Catalan numbers.==> 1,1,2,5,14,42...
 # Generates Catalan Sequence from {x,y} given input n.
 from itertools import permutations
 

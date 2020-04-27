@@ -1,3 +1,5 @@
+# Merge Sort
+# Time Complexity: O(nlogn)(avg case)
 def mergeSort(arr): 
     if len(arr) >1: 
         mid = len(arr)//2 

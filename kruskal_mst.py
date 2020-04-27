@@ -1,3 +1,4 @@
+# Kruskal's MST using union find.
 class Graph: 
   
     def __init__(self,vertices): 

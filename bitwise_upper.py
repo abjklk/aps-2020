@@ -1,3 +1,5 @@
+# Program to perform string.upper() using bitwise ops
+
 a = "hello everyone"
 x = ""
 

@@ -1,4 +1,7 @@
 from math import log,ceil
+import sys
+sys.setrecursionlimit(100000)
+
 class RMQ:
     def __init__(self, n):
         self.inf = float("inf")
@@ -49,9 +52,9 @@ n=5
 li=[-1,2,10,0,-5]
 rmq = RMQ(n)
 rmq.build(li)
-print rmq.query(2,4)
-print rmq.query(0,3)
-print rmq.query(1,2)
+print (rmq.query(2,4))
+print (rmq.query(0,3))
+print (rmq.query(1,2))
 rmq.update(2,-2)
-print rmq.query(1,2)
-print rmq.query(0,4)
+print (rmq.query(1,2))
+print (rmq.query(0,4))

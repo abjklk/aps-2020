@@ -1,5 +1,5 @@
 # Program implementing Union Find (disjoint sets)
-
+# Per Union Time Complexity : O(n), overall O(n^2)
 def union(arr,a,b):
 	a1=arr[a]
 	b1=arr[b]

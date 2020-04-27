@@ -1,3 +1,5 @@
+# Insertion Sort
+# Time Complexity : O(n^2)
 def insertionSort(arr):    
     for i in range(1, len(arr)): 
         key = arr[i] 

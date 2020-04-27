@@ -1,3 +1,4 @@
+# Program to determine the next power of 2 greater than or equal to n.
 def nextPowerOf2(n): 
   
     n -= 1

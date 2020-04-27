@@ -1,3 +1,4 @@
+# Program to generate palindromes less than n efficiently
 def createPalindrome(inp, isOdd): 
     n = inp 
     palin = inp

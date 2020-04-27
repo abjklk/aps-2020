@@ -1,5 +1,5 @@
-# (N / (log log N))
 # Program implementing Sieve of Atkin 
+# Time Complexity O(N / (log log N))
 
 def SieveOfAtkin(limit): 
 

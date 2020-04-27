@@ -2,8 +2,10 @@
 # Time Complexity : O(n)
 
 def factorial(n):
+	product = 1
+	for i in range(2,n+1):
+		product *= i
+	return product
 
-	return 1 if (n == 1 or n == 0) else n * factorial(n - 1)  
-  
 a = 10
 print(factorial(a))

@@ -1,3 +1,5 @@
+# Binet's formula to determine nth fibonacci number
+
 import math
 
 n = int(input())

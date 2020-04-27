@@ -1,5 +1,6 @@
 # Program to determine min. no of edits to transform str1 to str2. This is known as edit distance or levenshtein distance.
-# ops are either insert, remove or modify
+# ops are either insert, remove or modify.
+
 def editDistance(str1, str2, m, n): 
   
     if m == 0: 

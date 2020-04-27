@@ -1,7 +1,7 @@
 # Stable Marriage Problem
 # Iterative Improvement Problem
 # Gale-Shapley Algorithm
-# Time Complexity : TODO
+# Time Complexity : O(n^2)
 N = int(input())
 mp=[]
 mp2=[]

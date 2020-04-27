@@ -1,3 +1,5 @@
+# KMP Algorithm for Pattern Searching
+# Time Complexity : O(n)
 def KMPSearch(pat, txt): 
     M = len(pat) 
     N = len(txt) 

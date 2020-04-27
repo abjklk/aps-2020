@@ -4,9 +4,7 @@
 def countSort(arr): 
   
     output = [0 for i in range(256)] 
-  
     count = [0 for i in range(256)] 
-  
     ans = ["" for _ in arr] 
     
     for i in arr: 

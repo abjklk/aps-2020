@@ -1,3 +1,5 @@
+# Inorder, Preorder and Postorder tree traversals.
+
 from bst import Node,insert
 
 def inorder(root): 

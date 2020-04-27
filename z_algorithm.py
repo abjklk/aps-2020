@@ -1,3 +1,5 @@
+# Z-algorithm for pattern searching
+# Time Complexity : O(n)
 def calculateZ(s, length):
     Z = [0] * length
     Z[0] = length

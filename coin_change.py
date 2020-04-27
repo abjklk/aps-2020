@@ -8,7 +8,6 @@ def loop(x,n):
 		result[i]+=result[i-x]
 
 
-
 n=int(input())
 
 result=[0]*(n+1)
@@ -20,8 +19,3 @@ for i in list(map(int,input().split())):
 	# print(result)
 print(result[-1])
 
-"""
-complete this
-Salary(codechef)
-journey to the moon(hackerank)
-"""
