@@ -1,7 +1,7 @@
 # Program to evaluate area of a polygon using shoelace formula 
 
 def shoelace(X, Y, n): 
-
+	
 	area = 0
 	j = n - 1
 	for i in range(n): 
@@ -10,7 +10,7 @@ def shoelace(X, Y, n):
 	
 	return abs(area / 2.0) 
 
-X = [5, 7, 4, 4, 2] 
-Y = [5, 3, 1, 3, 4] 
+X = [180, 323, 390, 347, 216, 170]
+Y = [149, 122, 209, 349, 333, 267]
 n = len(X) 
 print(shoelace(X, Y, n),"sq. units") 
